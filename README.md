@@ -1,5 +1,7 @@
 # Heroku rclone
 ## 概述
-在Heroku上面部署rclone webdav服务
+在Heroku上面部署rclone http和webdav服务
+## 声明
+仅供学习使用，请不要滥用Heroku。
 ## 部署rclone
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/xixka/heroku-rclone-webdav.git)
