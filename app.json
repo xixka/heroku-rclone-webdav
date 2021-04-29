@@ -8,8 +8,8 @@
             "value": "",
             "required": true
         },
-        "name": {
-            "description": "rclone drive name",
+        "path": {
+            "description": "rclone drive path",
             "value": "",
             "required": true
         },
