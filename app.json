@@ -1,0 +1,28 @@
+{
+    "name": "rclone",
+    "description": "Deploy rclone on Heroku.",
+    "keywords": ["rclone"],
+    "env": {
+        "rclone": {
+            "description": "$HOME/.config/rclone/rclone.conf",
+            "value": "",
+            "required": true
+        },
+        "name": {
+            "description": "rclone drive name",
+            "value": "",
+            "required": true
+        },
+        "user": {
+            "description": "login user",
+            "value": "",
+            "required": true
+        },
+        "pass": {
+            "description": "login pass",
+            "value": "",
+            "required": true
+        }
+    },
+    "stack": "container"
+}
