@@ -8,19 +8,9 @@
             "value": "",
             "required": true
         },
-        "start": {
-            "description": "rclone startup parameters(The following is just an example)",
-            "value": "gd:up --buffer-size 32M --vfs-cache-mode writes",
-            "required": true
-        },
-        "user": {
-            "description": "login user",
-            "value": "",
-            "required": true
-        },
-        "pass": {
-            "description": "login pass",
-            "value": "",
+        "parameter": {
+            "description": "The following is just an example,Please modify it yourself",
+            "value": "gd:up --buffer-size 32M --vfs-cache-mode writes  --user (Login_user) --pass (Login_password)",
             "required": true
         }
     },
