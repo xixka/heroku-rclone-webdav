@@ -8,9 +8,9 @@
             "value": "",
             "required": true
         },
-        "path": {
-            "description": "rclone drive path",
-            "value": "",
+        "start": {
+            "description": "rclone startup parameters(The following is just an example)",
+            "value": "gd:up --buffer-size 32M --vfs-cache-mode writes",
             "required": true
         },
         "user": {
