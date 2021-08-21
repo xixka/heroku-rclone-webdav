@@ -12,6 +12,11 @@
             "description": "The following is just an example,Please modify it yourself",
             "value": "gd:up --transfers 5 --vfs-cache-mode writes  --user (Login_user) --pass (Login_password)",
             "required": true
+        },
+        "port": {
+            "description": "entering port",
+            "value": "443",
+            "required": true
         }
     },
     "stack": "container"
